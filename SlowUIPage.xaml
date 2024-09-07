@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:asyncuiexample="clr-namespace:AsyncUIExample"
+             x:Class="AsyncUIExample.SlowUIPage"
+             Title="SlowUIPage">
+    <VerticalStackLayout Spacing="10"
+                         Margin="5">
+        <asyncuiexample:VerySlowView Color="#88c0e3"/>
+        <asyncuiexample:VerySlowView Color="#d2e388"/>
+        <asyncuiexample:VerySlowView Color="#e38888"/>
+    </VerticalStackLayout>
+</ContentPage>
